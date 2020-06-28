@@ -1,152 +1,24 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" />
-    
-       
 </head>
 
-<body bgcolor="blue">
-
-    <div class="dis flex fullwhite">
-        <div class="div1 fullwhite">
-
-            <div class="div2 fullwhite">
-                <div class="  fullwhite" onclick="alert('Back')"> <img src="previous.png" class="backbutton"></div>
-                <!-- <div class="div2b"> <input type="text" placeholder="search for friend" class="Search-box"> </div> -->
-                <div class="div2c fullwhite"> <img src="search.png" class="searchimg"></div>
-
-
-
-            </div>
-
+<body>
+    <div class="container">
+        <div class="top-bar" id="top-bar">
         </div>
-        <div class="div3">
-            <div type="button" class="buttondesign fullwhite" onclick="alert('hello')">Message</div>
-            <div type="button" class="buttondesign fullwhite opacity" onclick="alert('hello') ">Calls</div>
-            <div type="button" class="buttondesign fullwhite opacity" onclick="alert('hello')">Groups</div>
-            <!-- <button type="button" class="buttondesign" onclick="alert('hello')">Calls</button> -->
-            <!-- <button type="button" class="buttondesign" onclick="alert('hello')">Groups</button> -->
+        <div class="navigation-bar">
+            <div class="buttondesign active" onclick="alert('hello')">Message</div>
+            <div class="buttondesign">Calls</div>
+            <div class="buttondesign">Groups</div>
         </div>
-
-        <div class="photobar">
-            <div class="photobarchild fullwhite"> <img src="roman reings.jpg" class="img">
-                <figcaption class="fonttype">Roman</figcaption>
-            </div>
-            <div class="photobarchild fullwhite"><img src="ssr.jpg" class="img">
-                <figcaption class="fonttype">sushant </figcaption>
-            </div>
-            <div class="photobarchild fullwhite"><img src="aleisterblack2018.jpg" class="img">
-                <figcaption class="fonttype">alester</figcaption>
-            </div>
-            <div class="photobarchild fullwhite"><img src="ajstyle.jpg" class="img">
-                <figcaption class="fonttype">Ajstyle</figcaption>
-            </div>
-
-
-        </div>
-
-        <hr class="hr" style=" width: 90%;  position: relative; left: 8px; ">
-
-
-
-        <div class="equalldivboxes whitecolor ">
-            <div class="diveinside-equal fullwhite"> <img src="finn balor.jpg" class="chatimg"> </div>
-
-            <div class="diveinside-equal1 fullwhite">
-                <div class="h5">
-                    <div> finn balor</div>
-                    <div class="opacity font-size"> how are you bro?</div>
-                </div>
-
-            </div>
-            <div class="diveinside-equal2 redcolor fullwhite">
-                <div class="h6">
-                    <div class="opacity font-size1">just now</div>
-                </div>
-            </div>
-        </div>
-
-
-        <hr class="hr">
-        <div class="equalldivboxes fullwhite">
-
-            <div class="diveinside-equal fullwhite"> <img src="bray.jpg" class="chatimg"> </div>
-
-            <div class="diveinside-equal1 redcolor fullwhite">
-                <div class="h5">
-                    <div>Bray white</div>
-                    <div class=" opacity font-size">good night bro</div>
-                </div>
-            </div>
-            <div class="diveinside-equal2 fullwhite">
-                <div class="h6">
-                    <div class="opacity font-size1">5 minutes </div>
-                </div>
-            </div>
-        </div>
-
-
-        <hr class="hr">
-        <div class="equalldivboxes whitecolor">
-            <div class="diveinside-equal fullwhite"> <img src="ajstyle.jpg" class="chatimg"></div>
-            <div class="diveinside-equal1 fullwhite ">
-                <div class="h5">
-                    <div>Ajstyle</div>
-                    <div class="opacity font-size">whats goingon?</div>
-                </div>
-            </div>
-
-            <div class="diveinside-equal2 redcolor fullwhite">
-                <div class="h6">
-                    <div class="opacity font-size1">10:30 am</div>
-                </div>
-            </div>
-        </div>
-
-
-        <hr class="hr">
-        <div class="equalldivboxes">
-            <div class="diveinside-equal fullwhite"> <img src="monster.jpg" class="chatimg"></div>
-
-            <div class="diveinside-equal1 redcolor fullwhite">
-                <div class="h5">
-                    <div>Braun strowman</div>
-                    <div class="opacity font-size"> i am fine</div>
-                </div>
-            </div>
-
-            <div class="diveinside-equal2 fullwhite">
-                <div class="h6">
-                    <div class="opacity font-size1"> 3:03pm</div>
-                </div>
-            </div>
-        </div>
-        <hr class="hr">
-
-
-        <div class="equalldivboxes whitecolor radius">
-            <div class="diveinside-equal radiusinleftlastbox fullwhite"> <img src="randy.jpg" class="chatimg"></div>
-
-            <div class="diveinside-equal1 fullwhite ">
-                <div class="h5">
-                    <div>Randy orton</div>
-                    <div class="opacity font-size">how are you bro?</div>
-                </div>
-            </div>
-
-            <div class="diveinside-equal2 redcolor radiusinlastbox fullwhite">
-                <div class="h6">
-                    <div class="opacity font-size1">24/06/20</div>
-                    <div class="notification-div">
-                        <div style="color:whitesmoke;">1</div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
+        <div class="notification-bar" id="notification-bar"></div>
+        <div class="divider"></div>
+        <div class="chat-container" id="chat-container"></div>
     </div>
+    <script src="./script.js"></script>
 </body>
 
 </html>
